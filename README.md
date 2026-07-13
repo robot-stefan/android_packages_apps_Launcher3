@@ -1,12 +1,17 @@
 
-| ![Screenshot1](_README_FILES/ADB%20Screenshot%20from%202026-07-11%2018-17-21.png) | ![Screenshot2](_README_FILES/ADB%20Screenshot%20from%202026-07-11%2018-17-30.png) | ![Demo Loop](_README_FILES/DemoAnimation.gif) |
-|:------------:|:------------:|:------------:|
-| App Drawer Icon on Desktop   | App Drawer Icon on Hotseat    | Demo Animation    |
+| ![Screenshot1](_README_FILES/ADB%20Screenshot%20from%202026-07-11%2018-17-21.png) | ![Screenshot2](_README_FILES/ADB%20Screenshot%20from%202026-07-11%2018-17-30.png) |
+|:------------:|:------------:|
+| App Drawer Icon on Desktop   | App Drawer Icon on Hotseat    |
 
 ## App Drawer Access
 I worked on these edits over a few weeks using various AI tools to vibe code improvements to Trebuchet the [LineageOS](https://lineageos.org/) Launcher. I had not touched java since undergrad object-oriented programming course (possibly some 16 yrs ago now) so this would have been a much more involved process without AI tools for me.  This project has two main feature goals:
 1. Option to disable swipe up to access the app drawer.
 2. Ability to add a short cut to allow for tap access to the app drawer.
+
+### Additional Media
+| ![Screenshot2](_README_FILES/DemoAnimation.gif) | ![Screenshot3](_README_FILES/ADB%20Screenshot%20from%202026-07-11%2018-17-43.png) |
+|:------------:|:------------:|
+| Demo Loop    | Shortcut in Widget Picker    |
 
 ### Why & Motivation 
 I have multiple elder folks in my family who use smart phones and struggle with using them due to age related disabilities such as neuropathy and dementia. They also have various challenges with vision and hearing which accessibility options in phone typically only target. Neuropathy can mean loss of feeling which can make it hard or impossible to do swipe gestures properly. This can lead to either not being able to do swipe only tasks or doing a different swipe gesture than you intend. App drawer access has largely been moved to swipe only action on most phones. These edits are aimed at bringing back the option to configure tap access to the app drawer. I have looked for a phone that I can buy with these features, but have yet to really find one so I opted to do these updates to the opensource LineageOS and use older phones that fit the hardware needs. 
