@@ -13,6 +13,8 @@ Two approaches were taken to make these user configurable options.
 
 Because both are independent you can have any combination of these settings or placements active. I have found it useful to lock the desktop, disable swipe access to the app drawer, and not have an apps icon present to allow for limiting phone functional options for example only place key contacts or apps on the desktop. Locking the desktop mitigates swipes that accidentally delete icons and simplifying the phone to key icons can help keep the phone functional (not confusing) for some. 
 
+All edits are in the "allapps-shortcut-fix" branch and not the branch that this readme and its media / files are in. 
+
 ### Demo Loop
 A gif animation showing the ability to do each of the tasks mentioned. 
 
