@@ -1,3 +1,8 @@
+
+| ![Screenshot1](_README_FILES/ADB%20Screenshot%20from%202026-07-11%2018-17-21.png) | ![Screenshot2](_README_FILES/ADB%20Screenshot%20from%202026-07-11%2018-17-30.png) | ![Demo Loop](_README_FILES/DemoAnimation.gif) |
+|:------------:|:------------:|:------------:|
+| App Drawer Icon on Desktop   | App Drawer Icon on Hotseat    | Demo Animation    |
+
 ## App Drawer Access
 I worked on these edits over a few weeks using various AI tools to vibe code improvements to Trebuchet the [LineageOS](https://lineageos.org/) Launcher. I had not touched java since undergrad object-oriented programming course (possibly some 16 yrs ago now) so this would have been a much more involved process without AI tools for me.  This project has two main feature goals:
 1. Option to disable swipe up to access the app drawer.
@@ -13,12 +18,7 @@ Two approaches were taken to make these user configurable options.
 
 Because both are independent you can have any combination of these settings or placements active. I have found it useful to lock the desktop, disable swipe access to the app drawer, and not have an apps icon present to allow for limiting phone functional options for example only place key contacts or apps on the desktop. Locking the desktop mitigates swipes that accidentally delete icons and simplifying the phone to key icons can help keep the phone functional (not confusing) for some. 
 
-All edits are in the "allapps-shortcut-fix" branch and not the branch that this readme and its media / files are in. 
-
-### Demo Loop
-A gif animation showing the ability to do each of the tasks mentioned. 
-
-![Demo Loop](_README_FILES/DemoAnimation.gif)
+All edits are in the "allapps-shortcut-fix" branch and not the branch that this readme and its media / files are in.  
 
 ### Build Notes
 This was built on Linux Mint 22.3 using [Goose Desktop](https://goose-docs.ai/) (duck.ai, Gemma, gpt-5.4-mini, and [ollama](https://ollama.com/) w/ mistral-small). I used VScode and xed for editors. Testing was done with a Moto G Power 2021 ([borneo](https://wiki.lineageos.org/devices/borneo/)) and LineageOS 23.2. 
